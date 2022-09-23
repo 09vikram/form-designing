@@ -1,0 +1,293 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainsection {
+    width: 100%;
+    /* background-color: white; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    /* border: 2px solid rgb(245, 189, 199); */
+    /* border-top: 5px; */
+    border-top: 1.2em solid rgb(68, 168, 230);
+    border-bottom: 0.5em solid rgb(68, 168, 230);
+    background-color: rgb(168, 202, 223);
+    border-radius: 0.3em;
+    width: 60%;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 8em;
+    margin-top: 0.5em;
+    text-decoration: underline;
+    /* font-family: monospace; */
+}
+
+.fisrtname {
+    margin-left: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* width: 50px; */
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.fisrtname>label {
+    flex: 1;
+}
+
+.fisrtname>input {
+    margin-left: 1em;
+    flex: 2;
+}
+
+.fisrtname>span {
+    margin-left: 0.5em;
+    font-weight: lighter;
+    text-transform: capitalize;
+    flex: 2;
+}
+
+.lastname {
+    margin-left: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+}
+
+.lastname>label {
+    flex: 1;
+}
+
+.lastname>input {
+    margin-left: 1em;
+    flex: 2;
+}
+
+.lastname>span {
+    margin-left: 0.5em;
+    font-weight: lighter;
+    text-transform: capitalize;
+    flex: 2;
+}
+
+.date_of_birth {
+    margin-left: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+}
+
+.date_of_birth>label {
+    flex: 1;
+    /* border: 1px solid red; */
+}
+
+.date_birth {
+    flex: auto;
+    /* border: 1px solid red; */
+}
+
+.date_birth>input {
+    margin-left: 1em;
+    /* flex: 4; */
+    width: 200px;
+}
+
+.email_id {
+    margin-left: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+}
+
+.email_id>label {
+    flex: 1;
+}
+
+.emails {
+    flex: 4;
+}
+
+.emails>input {
+    margin-left: 1em;
+}
+
+.mobile_number {
+    margin-left: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.mobile_number>input {
+    margin-left: 1em;
+}
+
+.mobile_number>span {
+    margin-left: 0.5em;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+.gender {
+    margin-left: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.gender>input {
+    margin-left: 1em;
+}
+
+.address {
+    margin-left: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.address>input {
+    margin-left: 1em;
+}
+
+.city {
+    margin-left: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.city>input {
+    margin-left: 1em;
+}
+
+.city>span {
+    margin-left: 0.5em;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+.pin_code {
+    margin-left: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pin_code>input {
+    margin-left: 1em;
+}
+
+.pin_code>span {
+    margin-left: 0.5em;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+.state {
+    margin-left: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.state>input {
+    margin-left: 1em;
+}
+
+.state>span {
+    margin-left: 0.5em;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+.country {
+    margin-left: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.country>input {
+    margin-left: 1em;
+}
+
+.country>span {
+    margin-left: 0.5em;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+.hobbies {
+    margin-left: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hobbies>input {
+    margin-left: 1em;
+}
+
+.select_file {
+    margin-left: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.select_file>input {
+    margin-left: 1em;
+}
+
+.course {
+    margin-left: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.course>select {
+    margin-left: 1em;
+}
+
+#sub {
+    margin-right: 0.2;
+    margin-left: 0.2;
+    width: 7em;
+    border: none;
+    outline: none;
+    color: rgb(88, 7, 7);
+}
+
+#sub>option {
+    background-color: rgb(255, 203, 60);
+    padding: 0.1em;
+    border: none;
+    outline: none;
+}
+
+.button {
+    /* margin-left: 3em; */
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 16em;
+    margin-bottom: 1em;
+}
+
+.button>input {
+    font-weight: bold;
+}
+
+.button> :hover {
+    background-color: rgb(86, 87, 87);
+    border: none;
+    color: rgb(12, 11, 11);
+}
+
+@media screen and (width:600px) {
+    .fisrtname {
+        flex-direction: column;
+    }
+}
